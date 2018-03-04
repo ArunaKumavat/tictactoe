@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div>
+    <div class="row one">
+        <div id="position1" class="col"></div>
+        <div id="position2" class="col"></div>
+        <div id="position3" class="col"></div>
+    </div>
+    <div class="row two">
+        <div id="position4" class="col"></div>
+        <div id="position5" class="col"></div>
+        <div id="position6" class="col"></div>
+    </div>
+    <div class="row three">
+        <div id="position7" class="col"></div>
+        <div id="position8" class="col"></div>
+        <div id="position9" class="col"></div>
+    </div>
+</div>
+
+<div id="message">
+
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+<script src="js/board.js"></script>
+<script src="js/player.js"></script>
+<script src="js/server.js"></script>
+<script src="js/ticTacToe.js"></script>
+<script>
+
+    var newGame = new window.ticTacToe.Game();
+           newGame.init();
+</script>
+</body>
+</html>

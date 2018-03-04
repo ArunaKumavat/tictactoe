@@ -1,0 +1,16 @@
+.row{
+    width: 156px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.col{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: left;
+    background: #333;
+    border: 1px solid #000;
+    color: orange;
+}
